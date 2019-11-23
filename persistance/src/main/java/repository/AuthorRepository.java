@@ -24,4 +24,5 @@ public class AuthorRepository {
     public void cleanUp() {
         HibernateUtil.cleanUp();
     }
+
 }

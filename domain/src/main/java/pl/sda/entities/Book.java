@@ -17,7 +17,7 @@ public class Book{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
 
-    private Long id_book;
+    private Long id_bookALong;
 
     @Column(name="borrow")
     private int borrow;
