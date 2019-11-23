@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="" />
+    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/persistance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/java/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistance/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,6 +52,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,10 +64,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1TkH1GVAmBFHK1y6WlSuTidWK5e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/relations-project" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -54,10 +103,25 @@
       <workItem from="1573996962186" duration="4592000" />
       <workItem from="1574023517259" duration="2520000" />
       <workItem from="1574451957167" duration="3728000" />
+      <workItem from="1574496961360" duration="7027000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

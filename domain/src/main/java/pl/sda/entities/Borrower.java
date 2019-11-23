@@ -2,7 +2,6 @@ package pl.sda.entities;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -14,7 +13,7 @@ public class Borrower {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    @Column(name="id_borrower")
+
     private Long id;
 
     @Column(name="first_name")
@@ -28,8 +27,9 @@ public class Borrower {
 
 
     @OneToOne
-    @JoinColumn(name = "borrower")
-    private BorrowerDetails borrowerDetails;
+    @JoinColumn(name = "id_details")
+    private BorrowerDetails details;
+
 
     @OneToMany(mappedBy = "borrower")
     private List<Borrow> borrows;

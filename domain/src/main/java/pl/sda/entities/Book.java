@@ -11,13 +11,13 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
-public class Book implements Serializable {
+public class Book{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    @Column(name="id_book")
-    private Long id;
+
+    private Long id_book;
 
     @Column(name="borrow")
     private int borrow;
@@ -43,9 +43,12 @@ public class Book implements Serializable {
     @Column(name="author_id")
     private Long author_id;
 
+
     @ManyToOne()
-    @JoinColumn(name = "bookList")
+    @JoinColumn(name = "id_author")
     private Author author;
+
+
 
     @OneToMany(mappedBy = "book")
     private List<Borrow> borrowList;

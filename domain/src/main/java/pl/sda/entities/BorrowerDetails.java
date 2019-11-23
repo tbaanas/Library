@@ -13,7 +13,7 @@ public class BorrowerDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    @Column(name="id_borrower_details")
+
     private Long idBorrower;
 
     @Column(name="address")
@@ -25,6 +25,7 @@ public class BorrowerDetails {
     @Column(name="phone")
     private String phone;
 
-    @OneToOne(mappedBy = "borrowerDetails")
+
+    @OneToOne(mappedBy = "details")
     private Borrower borrower;
 }

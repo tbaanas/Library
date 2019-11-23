@@ -13,6 +13,8 @@ public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+
     private Long id;
 
     @Column(name="first_name")
@@ -23,8 +25,6 @@ public class Author {
 
     @Column(name="birth_place")
     private String birthPlace;
-
-
 
     @OneToMany(mappedBy = "author")
     private List<Book> bookList;

@@ -13,7 +13,7 @@ public class Borrow {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    @Column(name="id_borrow")
+
     private Long id;
 
     @Column(name="book_id")
@@ -27,12 +27,13 @@ public class Borrow {
 
 
     @ManyToOne()
-    @JoinColumn(name = "borrowList")
+    @JoinColumn(name = "book_id")
     private Book book;
 
 
+
     @ManyToOne()
-    @JoinColumn(name="borrows")
+    @JoinColumn(name="id_borrower")
     private Borrower borrower;
 
 }
