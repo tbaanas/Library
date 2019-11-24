@@ -11,47 +11,48 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
-public class Book{
+public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
 
-    private Long id_bookALong;
+    private Long id_book;
 
-    @Column(name="borrow")
-    private int borrow;
-
-    @Column(name="category")
+    @Column(name = "CATEGORY")
     private String category;
 
-    @Column(name="isbn")
+    @Column(name = "BORROW")
+    private boolean borrow;
+
+    @Column(name = "ISBN")
     private String isbn;
 
-    @Column(name="pages")
+    @Column(name = "PAGES")
     private int pages;
 
-    @Column(name="release_date")
+    @Column(name = "RELEASE_DATE")
+    @Temporal(TemporalType.DATE)
     private Date date;
 
-    @Column(name="summary")
+    @Column(name = "SUMMARY", length = 550)
     private String summary;
 
-    @Column(name="title")
+    @Column(name = "TITLE")
     private String title;
 
-    @Column(name="author_id")
+    @Column(name = "AUTHOR_ID")
     private Long author_id;
 
+    @Column(name = "setCurrentBorrowerName")
+    private String setCurrentBorrowerName;
 
     @ManyToOne()
     @JoinColumn(name = "id_author")
     private Author author;
 
 
-
     @OneToMany(mappedBy = "book")
     private List<Borrow> borrowList;
-
 
 }

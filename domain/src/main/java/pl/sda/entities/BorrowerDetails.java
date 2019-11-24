@@ -9,21 +9,25 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
+@Table(name="BORROWER_DETAILS")
 public class BorrowerDetails {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
 
     private Long idBorrower;
 
-    @Column(name="address")
+    @Column(name="ADDRESS")
     private String address;
 
-    @Column(name="email")
+    @Column(name="PHONE")
+    private String phone;
+
+    @Column(name="EMAIL")
     private String email;
 
-    @Column(name="phone")
-    private String phone;
+
 
 
     @OneToOne(mappedBy = "details")

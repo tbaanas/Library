@@ -17,13 +17,13 @@ public class Author {
 
     private Long id;
 
-    @Column(name="first_name")
+    @Column(name="FIRST_NAME")
     private String firstName;
 
-    @Column(name="last_name")
+    @Column(name="LAST_NAME")
     private String lastName;
 
-    @Column(name="birth_place")
+    @Column(name="BIRTH_PLACE")
     private String birthPlace;
 
     @OneToMany(mappedBy = "author")

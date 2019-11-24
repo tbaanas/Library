@@ -10,7 +10,7 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <welcome-file-list>
-    <welcome-file>/HomeServlets</welcome-file>
+    <welcome-file>HomeServlets</welcome-file>
   </welcome-file-list>
 
   <jsp-config>

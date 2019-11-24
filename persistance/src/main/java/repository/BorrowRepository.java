@@ -8,6 +8,12 @@ import util.HibernateUtil;
 
 public class BorrowRepository {
 
+    private Session session;
+
+    public BorrowRepository() {
+
+        this.session = HibernateUtil.openSession();
+    }
     public void save(Borrow borrow) {
         Transaction tx = null;
         try (Session session = HibernateUtil.openSession()) {
@@ -22,7 +28,9 @@ public class BorrowRepository {
         }
     }
 
-    public void cleanUp() {
-        HibernateUtil.cleanUp();
+    public Borrow find(long id) {
+        return session.find(Borrow.class, id);
     }
+
+
 }

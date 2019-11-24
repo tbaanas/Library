@@ -23,6 +23,7 @@ public class Borrow {
     private Long borowerId;
 
     @Column(name="rental_date")
+    @Temporal(TemporalType.DATE)
     private Date date;
 
 

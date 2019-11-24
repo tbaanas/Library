@@ -16,13 +16,13 @@ public class Borrower {
 
     private Long id;
 
-    @Column(name="first_name")
-    private int firstName;
+    @Column(name="FIRST_NAME")
+    private String firstName;
 
-    @Column(name="last_name")
-    private int lastName;
+    @Column(name="LAST_NAME")
+    private String lastName;
 
-    @Column(name="borrower_detalis_id")
+    @Column(name="BORROWER_DETAILS_ID")
     private Long borrower_detalis_id;
 
 

@@ -7,28 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/AddBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/HomeServlets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/footer.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/EditBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/ReturnBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/ShowBookDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/ToBookAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/borrowAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/AddBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/bookDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/editBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/AddBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/AddBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/HomeServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/HomeServlets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
     </list>
@@ -56,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -90,6 +100,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\server\library_demo_project\web\src\main\webapp" />
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,7 +207,10 @@
       <workItem from="1573996962186" duration="4592000" />
       <workItem from="1574023517259" duration="2520000" />
       <workItem from="1574451957167" duration="3728000" />
-      <workItem from="1574496961360" duration="11298000" />
+      <workItem from="1574496961360" duration="22788000" />
+      <workItem from="1574538024883" duration="10979000" />
+      <workItem from="1574583175148" duration="22607000" />
+      <workItem from="1574609268987" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -200,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574504318224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit2">
+      <created>1574508897977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574508897977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +237,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -220,20 +248,59 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/AddBookServlet.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/borrowAdd.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/borrowAdd.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
+          <line>47</line>
+          <properties class="pl.sda.servlet.SaveEditBook" method="doGet">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
