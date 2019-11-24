@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="" />
+    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="commit22" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +68,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\server\library_demo_project\web\src\main\webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\server\library_demo_project\web\src\main\webapp" />
       <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF" />
@@ -178,6 +181,7 @@
       <workItem from="1574583175148" duration="22607000" />
       <workItem from="1574609268987" duration="4749000" />
       <workItem from="1574617772520" duration="696000" />
+      <workItem from="1574625647393" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574617807317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit22">
+      <created>1574625680526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574625680526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
