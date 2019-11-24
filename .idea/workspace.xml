@@ -6,41 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/EditBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/ReturnBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/ShowBookDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/ToBookAddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/borrowAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/AddBook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/bookDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/editBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/BorrowerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/AddBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/AddBookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/HomeServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/HomeServlets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +177,7 @@
       <workItem from="1574538024883" duration="10979000" />
       <workItem from="1574583175148" duration="22607000" />
       <workItem from="1574609268987" duration="4749000" />
+      <workItem from="1574617772520" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -226,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574508897977</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit22">
+      <created>1574617807317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574617807317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +223,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="commit22" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
