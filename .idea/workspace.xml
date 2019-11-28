@@ -6,12 +6,52 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="commit22" />
+    <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/persistence/persistance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/BorrowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/BorrowerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/AuthorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/BookRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/BorrowRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/BorrowerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/classes/util/HibernateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/persistance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/util/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistance/src/main/resources/import.sql" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -181,7 +221,9 @@
       <workItem from="1574583175148" duration="22607000" />
       <workItem from="1574609268987" duration="4749000" />
       <workItem from="1574617772520" duration="696000" />
-      <workItem from="1574625647393" duration="264000" />
+      <workItem from="1574625647393" duration="584000" />
+      <workItem from="1574626301864" duration="159000" />
+      <workItem from="1574976284847" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -211,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574625680526</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit22">
+      <created>1574625966772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574625966772</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

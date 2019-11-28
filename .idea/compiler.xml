@@ -8,12 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="web" />
-        <module name="persistence" />
         <module name="service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="persistance" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
