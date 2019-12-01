@@ -5,10 +5,13 @@
 <head>
     <title>Super Side!</title>
     <link rel="stylesheet" href="/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8"/>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid w-auto h-auto d-inline-block">
     <jsp:include page="/WEB-INF/fragments/header.jspf"/>
+        <div class="jumbotron">
     <form action="/add" method="post">
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -53,7 +56,7 @@
             </div>
             <button type="submit" class="btn btn-primary">ADD</button>
         </form>
-
+        </div>
     <%@ include file="/WEB-INF/fragments/footer.jspf" %>
     <script src="webjars/bootstrap/4.0.0-2/js/bootstrap.js"></script>
 </div>

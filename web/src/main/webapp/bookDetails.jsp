@@ -5,10 +5,13 @@
 <head>
     <title>Super Side!</title>
     <link rel="stylesheet" href="/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8"/>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid w-auto h-auto d-inline-block">
     <jsp:include page="/WEB-INF/fragments/header.jspf"/>
+        <div class="jumbotron">
     <div class="row">
     <div class="col-5">
         <table class="table table-bordered">
@@ -100,7 +103,7 @@
         </div>
     <a href="/HomeServlets" class="btn btn-primary">Home</a>
 
-
+        </div>
     <%@ include file="/WEB-INF/fragments/footer.jspf" %>
     <script src="webjars/bootstrap/4.0.0-2/js/bootstrap.js"></script>
 

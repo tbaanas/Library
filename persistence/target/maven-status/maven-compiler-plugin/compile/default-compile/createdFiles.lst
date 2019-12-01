@@ -1,5 +1,6 @@
 repository\BorrowRepository.class
 util\HibernateUtil.class
 repository\AuthorRepository.class
+repository\UsersRepository.class
 repository\BookRepository.class
 repository\BorrowerRepository.class

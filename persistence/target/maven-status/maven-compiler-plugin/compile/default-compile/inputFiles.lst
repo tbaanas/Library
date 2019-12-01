@@ -1,5 +1,6 @@
-C:\server\library_demo_project\persistance\src\main\java\repository\BorrowRepository.java
-C:\server\library_demo_project\persistance\src\main\java\repository\BorrowerRepository.java
-C:\server\library_demo_project\persistance\src\main\java\util\HibernateUtil.java
-C:\server\library_demo_project\persistance\src\main\java\repository\BookRepository.java
-C:\server\library_demo_project\persistance\src\main\java\repository\AuthorRepository.java
+C:\server\library_demo_project\persistence\src\main\java\util\HibernateUtil.java
+C:\server\library_demo_project\persistence\src\main\java\repository\BookRepository.java
+C:\server\library_demo_project\persistence\src\main\java\repository\BorrowRepository.java
+C:\server\library_demo_project\persistence\src\main\java\repository\BorrowerRepository.java
+C:\server\library_demo_project\persistence\src\main\java\repository\AuthorRepository.java
+C:\server\library_demo_project\persistence\src\main\java\repository\UsersRepository.java

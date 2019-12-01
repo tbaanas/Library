@@ -1,0 +1,6 @@
+pl\sda\entities\Borrower.class
+pl\sda\entities\Author.class
+pl\sda\entities\Book.class
+pl\sda\entities\Borrow.class
+pl\sda\entities\BorrowerDetails.class
+pl\sda\entities\Users.class

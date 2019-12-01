@@ -7,40 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/persistence/persistance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/AuthorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/BorrowRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/BorrowerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/import.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/AuthorRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/BookRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/BorrowRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/repository/BorrowerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/util/HibernateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/web.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/persistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/jumbotron.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/new/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/persistance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/AuthorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BookRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/repository/BorrowerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/java/util/HibernateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistance/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/AddBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/AddBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/bookDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/editBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/web.war" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -108,12 +101,13 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\server\library_demo_project\web\src\main\webapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\css" />
       <recent name="C:\server\library_demo_project\web\src\main\webapp" />
       <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\server\library_demo_project\web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +123,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.271" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.271" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -223,7 +217,11 @@
       <workItem from="1574617772520" duration="696000" />
       <workItem from="1574625647393" duration="584000" />
       <workItem from="1574626301864" duration="159000" />
-      <workItem from="1574976284847" duration="464000" />
+      <workItem from="1574976284847" duration="1110000" />
+      <workItem from="1574978251949" duration="3594000" />
+      <workItem from="1575050015196" duration="8062000" />
+      <workItem from="1575123479639" duration="1165000" />
+      <workItem from="1575153929371" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574625966772</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="OK">
+      <created>1574976829454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574976829454</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +289,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="commit2" />
     <MESSAGE value="commit22" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit22" />
+    <MESSAGE value="OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

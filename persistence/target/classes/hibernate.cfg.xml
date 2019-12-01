@@ -17,6 +17,7 @@
         <mapping class="pl.sda.entities.Borrow"/>
         <mapping class="pl.sda.entities.Borrower"/>
         <mapping class="pl.sda.entities.BorrowerDetails"/>
+        <mapping class="pl.sda.entities.Users"/>
     </session-factory>
 </hibernate-configuration>
 
