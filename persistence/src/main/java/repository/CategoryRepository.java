@@ -3,24 +3,25 @@ package repository;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import pl.sda.entities.Author;
-import pl.sda.entities.Book;
+import pl.sda.entities.Category;
 import util.HibernateUtil;
 
 import java.util.List;
 
-public class AuthorRepository {
+public class CategoryRepository {
 
     private Session session;
 
-    public AuthorRepository() {
+    public CategoryRepository() {
+
         this.session = HibernateUtil.openSession();
     }
-    public void save(Author author) {
+    public void save(Category category) {
         Transaction tx = null;
         try (Session session = HibernateUtil.openSession()) {
             tx = session.getTransaction();
             tx.begin();
-            session.persist(author);
+            session.persist(category);
             tx.commit();
         } catch (Exception e) {
             if (tx != null) {
@@ -29,12 +30,9 @@ public class AuthorRepository {
         }
     }
 
-    public List<Author> show() {
 
-        return session.createQuery("from Author",Author.class).list();
-    }
+    public List<Category> show() {
 
-    public Author find(Long idAuthor) {
-        return session.find(Author.class,idAuthor);
+        return  session.createQuery("from Category",Category.class).list();
     }
 }

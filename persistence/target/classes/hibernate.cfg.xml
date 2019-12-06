@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/library?serverTimezone=UTC</property>
-        <property name="hibernate.connection.username">library</property>
-        <property name="hibernate.connection.password">qwerty1234</property>
+        <property name="hibernate.connection.url">jdbc:mysql://s71.hekko.net.pl:3306/tomekww_java</property>
+        <property name="hibernate.connection.username">tomekww_java</property>
+        <property name="hibernate.connection.password">ZcjZu7wt</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="hbm2ddl.auto">create</property>
@@ -18,7 +18,6 @@
         <mapping class="pl.sda.entities.Borrower"/>
         <mapping class="pl.sda.entities.BorrowerDetails"/>
         <mapping class="pl.sda.entities.Users"/>
+        <mapping class="pl.sda.entities.Category"/>
     </session-factory>
 </hibernate-configuration>
-
-

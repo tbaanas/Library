@@ -9,13 +9,10 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-@Table(name="BORROWER_DETAILS")
 public class BorrowerDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-
     private Long idBorrower;
 
     @Column(name="ADDRESS")

@@ -17,4 +17,9 @@ INSERT INTO BOOK(CATEGORY, BORROW, ISBN, PAGES, RELEASE_DATE, SUMMARY, TITLE, AU
 INSERT INTO BOOK(CATEGORY, BORROW, ISBN, PAGES, RELEASE_DATE, SUMMARY, TITLE, AUTHOR_ID) VALUES ('HORROR', FALSE,'4464576896599', 477, '1990-01-01', 'The article deals with the novel The Issa Valley, written by the Nobel laureate in literature Czesław Miłosz, and its eponymous film adaptation by film director Tadeusz Konwicki. Both authors were born in the region of today’s Lithuania, which, with its intact natural environment and ancient folk beliefs, left a strong mark on their childhoods.', 'Dolina Issy', 2);
 
 
-INSERT INTO USERS(username, password, email) VALUES ('tomek','tomek','tomek@a.pl');
+INSERT INTO USERS(username, password, email,admin) VALUES ('admin','21232f297a57a5a743894a0e4a801fc3','admin@admin.pl',1);
+
+INSERT INTO CATEGORY(category) VALUES ('FANTASY');
+INSERT INTO CATEGORY(category) VALUES ('HISTORY');
+INSERT INTO CATEGORY(category) VALUES ('HORROR');
+INSERT INTO CATEGORY(category) VALUES ('COMMEDY');

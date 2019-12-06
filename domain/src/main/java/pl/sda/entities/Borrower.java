@@ -12,8 +12,6 @@ import java.util.List;
 public class Borrower {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-
     private Long id;
 
     @Column(name="FIRST_NAME")

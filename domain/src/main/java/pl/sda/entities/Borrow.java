@@ -12,15 +12,13 @@ import java.util.Date;
 public class Borrow {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-
     private Long id;
 
-    @Column(name="book_id")
+    /*@Column(name="book_id")
     private Long bookId;
 
     @Column(name="borower_id")
-    private Long borowerId;
+    private Long borowerId;*/
 
     @Column(name="rental_date")
     @Temporal(TemporalType.DATE)
@@ -28,7 +26,7 @@ public class Borrow {
 
 
     @ManyToOne()
-    @JoinColumn(name = "books_id")
+    @JoinColumn(name = "book_id")
     private Book book;
 
 

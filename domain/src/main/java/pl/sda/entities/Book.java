@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -15,8 +14,6 @@ public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-
     private Long id_book;
 
     @Column(name = "CATEGORY")
@@ -54,5 +51,6 @@ public class Book {
 
     @OneToMany(mappedBy = "book")
     private List<Borrow> borrowList;
+
 
 }

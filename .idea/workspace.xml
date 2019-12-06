@@ -7,33 +7,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/persistence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/jumbotron.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/new/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Borrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Borrower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/BorrowerDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/BorrowerDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/repository/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/repository/AuthorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/repository/UsersRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/AddBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/AddBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/bookDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/editBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BorrowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BorrowService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BorrowerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BorrowerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +79,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
+        <option value="HTTP Request" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -102,8 +120,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\server\library_demo_project\web\src\main\webapp\css" />
       <recent name="C:\server\library_demo_project\web\src\main\webapp" />
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF\log" />
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\css" />
       <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -222,6 +241,18 @@
       <workItem from="1575050015196" duration="8062000" />
       <workItem from="1575123479639" duration="1165000" />
       <workItem from="1575153929371" duration="476000" />
+      <workItem from="1575237284963" duration="2477000" />
+      <workItem from="1575305727295" duration="12596000" />
+      <workItem from="1575370900168" duration="4812000" />
+      <workItem from="1575383002332" duration="1766000" />
+      <workItem from="1575405409259" duration="15147000" />
+      <workItem from="1575586731255" duration="367000" />
+      <workItem from="1575587236745" duration="231000" />
+      <workItem from="1575625148366" duration="3355000" />
+      <workItem from="1575633575797" duration="464000" />
+      <workItem from="1575655776292" duration="5728000" />
+      <workItem from="1575663472522" duration="3955000" />
+      <workItem from="1575668146328" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -296,52 +327,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="141" />
+          <url>file://$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="143" />
+          <url>file://$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/borrowAdd.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/borrowAdd.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="154" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/SaveEditBook.java</url>
-          <line>47</line>
-          <properties class="pl.sda.servlet.SaveEditBook" method="doGet">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="148" />
+          <url>file://$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Login.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
