@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.Date;
 
 @WebServlet("/borrowAdd")
@@ -34,8 +33,10 @@ public class borrowAdd extends HttpServlet {
         bookService.update(book);
 
         Borrow borrow = new Borrow();
-        borrow.setBookId(book.getId_book());
-        borrow.setBorowerId(borrower.getId());
+        borrow.setBook(book);
+        borrow.setBorrower(borrower);
+      /*  borrow.setBookId(book.getId_book());
+        borrow.setBorowerId(borrower.getId());*/
         Date date = new Date(System.currentTimeMillis());
 
         borrow.setDate(date);

@@ -5,10 +5,11 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://s71.hekko.net.pl:3306/tomekww_java</property>
-        <property name="hibernate.connection.username">tomekww_java</property>
-        <property name="hibernate.connection.password">ZcjZu7wt</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/library?serverTimezone=Europe/Warsaw</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">qwerty1234</property>
         <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.hbm2ddl.import_files">import.sql</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="hbm2ddl.auto">create</property>
 

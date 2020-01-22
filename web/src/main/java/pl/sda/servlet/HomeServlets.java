@@ -1,4 +1,5 @@
 package pl.sda.servlet;
+
 import pl.sda.entities.Book;
 import pl.sda.service.BookService;
 
@@ -14,6 +15,7 @@ import java.util.List;
 @WebServlet("/HomeServlets")
 public class HomeServlets  extends HttpServlet{
     private BookService bookService = new BookService();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

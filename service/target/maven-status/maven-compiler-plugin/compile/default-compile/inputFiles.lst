@@ -1,6 +1,9 @@
+C:\server\library_demo_project\service\src\main\java\controller\EmailController.java
+C:\server\library_demo_project\service\src\main\java\interfaces\EmailSender.java
 C:\server\library_demo_project\service\src\main\java\pl\sda\service\CategoryService.java
 C:\server\library_demo_project\service\src\main\java\pl\sda\service\AuthorService.java
 C:\server\library_demo_project\service\src\main\java\pl\sda\service\BorrowService.java
+C:\server\library_demo_project\service\src\main\java\pl\sda\service\SendMsg.java
 C:\server\library_demo_project\service\src\main\java\pl\sda\service\BookService.java
 C:\server\library_demo_project\service\src\main\java\pl\sda\service\BorrowerService.java
 C:\server\library_demo_project\service\src\main\java\pl\sda\service\UsersService.java

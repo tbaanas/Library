@@ -20,6 +20,8 @@ public class AddBookServlet extends HttpServlet {
 
         Book book = new Book();
         Author author = new Author();
+
+
         book.setCategory(request.getParameter("category"));
         book.setIsbn(request.getParameter("isbn"));
         book.setPages(Integer.parseInt(request.getParameter("pages")));
@@ -34,6 +36,7 @@ public class AddBookServlet extends HttpServlet {
         author.setId((long) a);
         book.setAuthor(author);
         bookService.save(book);
+
         response.sendRedirect("/HomeServlets");
 
     }

@@ -7,16 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda89161-06b4-47af-b93b-3aa481044997" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/library_demo_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/interfaces/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/templates/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Borrower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/BorrowerDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/pl/sda/entities/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Author.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Borrow.class" afterDir="false" />
@@ -25,22 +25,14 @@
       <change beforePath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/pl/sda/entities/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/persistance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/import.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/target/classes/repository/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/repository/AuthorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/target/classes/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/repository/UsersRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/persistence-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/pl/sda/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/AuthorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BookService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BorrowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/pl/sda/service/BorrowService.class" afterDir="false" />
@@ -50,8 +42,37 @@
       <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/pl/sda/servlet/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/fragments/header.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/log/homeLogin.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/log/homeLogin.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/pl/sda/servlet/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/pl/sda/servlet/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/pl/sda/servlet/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/pl/sda/servlet/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/fragments/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/fragments/header.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-annotations-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-core-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-databind-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-datatype-jdk8-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-datatype-jsr310-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-module-parameter-names-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jakarta.validation-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-aop-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-boot-starter-json-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-boot-starter-tomcat-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-boot-starter-validation-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-boot-starter-web-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-expression-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-web-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-webmvc-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/tomcat-embed-core-9.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/tomcat-embed-el-9.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/tomcat-embed-websocket-9.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/log/homeLogin.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/log/homeLogin.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/index.jsp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,13 +102,14 @@
       <list>
         <option value="HTTP Request" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -107,39 +129,34 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/webapp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Nowy folder (2)/example-project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\server\library_demo_project\web\src\main\webapp" />
-      <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF\log" />
-      <recent name="C:\server\library_demo_project\web\src\main\webapp\css" />
-      <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\server\library_demo_project\web\src\main\webapp" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\server\library_demo_project\web\src\main\webapp" />
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF\log" />
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\WEB-INF\fragments" />
+      <recent name="C:\server\library_demo_project\service\src\main\resources\templates" />
+      <recent name="C:\server\library_demo_project\web\src\main\webapp\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.271" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
@@ -216,6 +233,28 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -252,7 +291,30 @@
       <workItem from="1575633575797" duration="464000" />
       <workItem from="1575655776292" duration="5728000" />
       <workItem from="1575663472522" duration="3955000" />
-      <workItem from="1575668146328" duration="1486000" />
+      <workItem from="1575668146328" duration="2238000" />
+      <workItem from="1575706731020" duration="1338000" />
+      <workItem from="1575834057425" duration="7746000" />
+      <workItem from="1576278032053" duration="41000" />
+      <workItem from="1576316754812" duration="3698000" />
+      <workItem from="1576326414662" duration="608000" />
+      <workItem from="1577366646005" duration="762000" />
+      <workItem from="1577385833174" duration="2499000" />
+      <workItem from="1577388558816" duration="2847000" />
+      <workItem from="1577907033894" duration="47000" />
+      <workItem from="1577907156073" duration="625000" />
+      <workItem from="1577908163065" duration="4107000" />
+      <workItem from="1577983038992" duration="2222000" />
+      <workItem from="1578053441766" duration="3000" />
+      <workItem from="1578058557868" duration="30000" />
+      <workItem from="1578066905733" duration="1228000" />
+      <workItem from="1578150805268" duration="730000" />
+      <workItem from="1578588702250" duration="1825000" />
+      <workItem from="1578590552474" duration="1945000" />
+      <workItem from="1579335923418" duration="114000" />
+      <workItem from="1579347340348" duration="26000" />
+      <workItem from="1579563330928" duration="1646000" />
+      <workItem from="1579600300469" duration="20000" />
+      <workItem from="1579718846514" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1574504318224</created>
@@ -296,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574976829454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="OK ok ok">
+      <created>1575669769516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575669769516</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +390,83 @@
     <MESSAGE value="commit2" />
     <MESSAGE value="commit22" />
     <MESSAGE value="OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK" />
+    <MESSAGE value="OK ok ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="OK ok ok" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579719712415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579719712415" />
+    <state x="197" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1578592553744">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="197" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578592553744" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577908822530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577908822530" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1577991939483">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577991939483" />
+    <state width="1024" height="405" key="GridCell.Tab.0.bottom" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.0.center" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.0.left" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.0.right" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.1.bottom" timestamp="1579720807948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579720807948" />
+    <state width="1024" height="405" key="GridCell.Tab.1.center" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.1.left" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.1.right" timestamp="1579720807947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579720807947" />
+    <state width="1024" height="405" key="GridCell.Tab.2.bottom" timestamp="1579720807948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579720807948" />
+    <state width="1024" height="405" key="GridCell.Tab.2.center" timestamp="1579720807948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1579720807948" />
+    <state width="1024" height="405" key="GridCell.Tab.2.left" timestamp="1579720807948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1579720807948" />
+    <state width="1024" height="405" key="GridCell.Tab.2.right" timestamp="1579720807948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="405" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1579720807948" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1577909045074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577909045074" />
+    <state x="209" y="34" key="new project wizard" timestamp="1578589242742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578589242742" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,5 +488,26 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
   </component>
 </project>

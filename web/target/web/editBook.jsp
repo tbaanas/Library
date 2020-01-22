@@ -27,8 +27,8 @@
         <div class="form-group">
             <label>Category</label>
             <select class="custom-select" name="category" required>
-                <c:forEach var="book" items="${requestScope.bookList}">
-                    <option value="${book.category}">${book.category}</option>
+                <c:forEach var="books" items="${requestScope.bookList}">
+                    <option value="${books.category}">${books.category}</option>
                 </c:forEach>
             </select>
             <div class="invalid-feedback">Example invalid custom select feedback</div>
@@ -63,6 +63,7 @@
     </form>
         </div>
     <%@ include file="/WEB-INF/fragments/footer.jspf" %>
+
     <script src="webjars/bootstrap/4.0.0-2/js/bootstrap.js"></script>
 </div>
 </body>

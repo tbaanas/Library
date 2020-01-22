@@ -9,8 +9,9 @@
     <meta charset="UTF-8"/>
 </head>
 <body>
+<jsp:include page="/WEB-INF/fragments/header.jspf"/>
 <div class="container-fluid w-auto h-auto d-inline-block">
-    <jsp:include page="/WEB-INF/fragments/header.jspf"/>
+
         <div class="jumbotron">
     <form action="/add" method="post">
             <div class="form-row">
@@ -31,10 +32,9 @@
                     <label for="inputState">Category</label>
                     <select id="inputState" class="form-control" name="category" >
                         <option selected>Chose...</option>
-                        <option value="FANTASY">FANTASY</option>
-                        <option value="HISTORY">HISTORY</option>
-                        <option value="HORROR">HORROR</option>
-                        <option value="COMEDY">COMEDY</option>
+                        <c:forEach var="bookList" items="${requestScope.bookList}">
+                            <option name="bookList" value="${bookList.category}">${bookList.category}</option>
+                        </c:forEach>
                     </select>
                 </div>
 
